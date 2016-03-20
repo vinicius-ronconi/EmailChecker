@@ -1,0 +1,60 @@
+#####################################
+#### Use the variables to compose the email pattern
+#### {fn} - First Name
+#### {fi} - First Name (Initial Letter)
+#### {ln} - Last Name
+#### {li} - Last Name (Initial Letter)
+#### {mn} - Middle Name
+#### {mi} - Middle Name (Initial Letter)
+#### {d} - domain
+####
+#### These variables will be substituted to create the email pattern
+#### Any other character will be in the email
+#### the domain will be added automatically
+#####################################
+{fn}
+{ln}
+{fn}.{ln}
+{fi}{ln}
+{fn}{ln}
+{fi}.{ln}
+{fn}{li}
+{fn}.{li}
+{fi}{li}
+{fi}.{li}
+{ln}{fn}
+{ln}.{fn}
+{ln}{fi}
+{ln}.{fi}
+{li}{fn}
+{li}.{fn}
+{li}{fi}
+{li}.{fi}
+{fi}{mi}{ln}
+{fi}{mi}.{ln}
+{fn}{mi}{ln}
+{fn}.{mi}.{ln}
+{fn}{mn}{ln}
+{fn}.{mn}.{ln}
+{fn}-{ln}
+{fi}-{ln}
+{fn}-{li}
+{fi}-{li}
+{ln}-{fn}
+{ln}-{fi}
+{li}-{fn}
+{li}-{fi}
+{fi}{mi}-{ln}
+{fn}-{mi}-{ln}
+{fn}-{mn}-{ln}
+{fn}_{ln}
+{fi}_{ln}
+{fn}_{li}
+{fi}_{li}
+{ln}_{fn}
+{ln}_{fi}
+{li}_{fn}
+{li}_{fi}
+{fi}{mi}_{ln}
+{fn}_{mi}_{ln}
+{fn}_{mn}_{ln}

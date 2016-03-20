@@ -1,0 +1,183 @@
+@include url('http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css');
+@include url('http://yui.yahooapis.com/3.5.0/build/cssbase/cssbase-min.css');
+@include url('http://yui.yahooapis.com/3.5.0/build/cssfonts/cssfonts-min.css');
+
+body {
+    background-color: #e6f2ff;
+    font-family: "Verdana", sans-serif;
+}
+
+div {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+div.completeList {
+	border-radius: 25px;
+    border: 2px solid #004d99;
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+div.completeListItem {
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.explain {
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px; 
+	font-size: 12px;
+    max-width: 800px;
+}
+
+div.listTitle {
+	margin-bottom: 10px;
+}
+
+div.notFound {
+	margin-left: 10px;
+	color: red;
+}
+
+div.odd {
+	background-color: #b3d9ff;
+}
+
+div.result {
+	border-radius: 25px;
+    border: 2px solid #004d99;
+	margin-top: 20px;
+    max-width: 800px;
+    padding-top: 5px;
+}
+
+div.resultInner {
+	margin-top: 0px;
+}
+
+div.link {
+	font-size: 10px;
+	color: green;
+	white-space: nowrap;
+}
+
+div.link a {
+	color: green;
+	text-decoration: none;
+}
+
+div.snippet {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+div.stopWhenFound {
+	margin-top: 20px;
+	
+}
+
+div.topSeparator {
+	margin-top: 20px;
+}
+
+fieldset {
+	max-width: 800px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+h1 {
+    color: navy;
+	font-size: 18px;
+	margin-top: 36px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+h2{
+	font-size:large;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+h3 {
+	color: blue;
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+h3.title a {
+	text-decoration: none;
+}
+
+input {
+	margin-top: 12px;
+	width: 100%;
+	height: 36px;
+	font-size: 20px;
+	border-radius: 18px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input[type="submit"] {
+	background-color: #f9f9f9;
+/*
+	border: 0;
+	line-height: 18px;
+	padding: 9px;
+	font-size: 18px;
+
+	float: left;
+	display: block;
+	margin-top: 12px; 
+*/
+}
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: 18px;
+    *overflow: hidden;
+}
+
+label {
+    display: block;
+    padding-left: 35px;
+    text-indent: -15px;
+}
+
+legend {
+	color: navy;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+span.corretEmail {
+	font-size:large;
+	font-weight: bold;
+}
+
+span.corretEmailOccurrences {
+	font-weight: bold;
+}
+
+span.countResults {
+	font-weight: bold;
+}
